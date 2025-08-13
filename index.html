@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat Farm House - भरोसेमंद निवेश, सुकूनभरा जीवन</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5aa0, #1e3a8a);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #ffd700;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23228B22" width="1200" height="600"/><circle fill="%2332CD32" cx="300" cy="150" r="80"/><circle fill="%2332CD32" cx="900" cy="400" r="100"/></svg>');
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+        }
+        
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .cta-button {
+            background: #ffd700;
+            color: #333;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #ffed4e;
+        }
+        
+        .features {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .features h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c5aa0;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature-card {
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .feature-card h3 {
+            color: #2c5aa0;
+            margin-bottom: 1rem;
+        }
+        
+        .amenities {
+            background: #f8f9fa;
+            padding: 4rem 2rem;
+        }
+        
+        .amenities-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .amenities h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c5aa0;
+        }
+        
+        .amenities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .amenity-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .amenity-item::before {
+            content: "✓";
+            color: #228B22;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .location {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .location h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c5aa0;
+        }
+        
+        .location-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .location-item {
+            padding: 1rem;
+            border-left: 4px solid #2c5aa0;
+            background: #f8f9fa;
+        }
+        
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">विराट प्रॉपर्टीज</div>
+            <ul class="nav-links">
+                <li><a href="index.html">होम</a></li>
+                <li><a href="about.html">हमारे बारे में</a></li>
+                <li><a href="contact.html">संपर्क करें</a></li>
+                <li><a href="terms.html">नियम व शर्तें</a></li>
+                <li><a href="privacy.html">प्राइवेसी पॉलिसी</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>विराट फार्म हाउस</h1>
+            <p>भरोसेमंद निवेश, सुकूनभरा जीवन!</p>
+            <a href="contact.html" class="cta-button">संपर्क करें</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>हमारी विशेषताएं</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>सुरक्षित निवेश</h3>
+                <p>JDA पट्टा सुदा फार्म हाउस स्कीम के साथ पूर्णतः सुरक्षित निवेश का अवसर</p>
+            </div>
+            <div class="feature-card">
+                <h3>बेहतर जीवनशैली</h3>
+                <p>प्राकृतिक, स्वच्छ और शांत वातावरण में आपके सपनों का घर</p>
+            </div>
+            <div class="feature-card">
+                <h3>लीगल क्लीयरेंस</h3>
+                <p>सभी कानूनी औपचारिकताएं पूर्ण, पारदर्शी और भरोसेमंद</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenities">
+        <div class="amenities-content">
+            <h2>हमारी सुविधाएं</h2>
+            <div class="amenities-grid">
+                <div class="amenity-item">JDA पट्टा सुदा फार्म हाउस स्कीम</div>
+                <div class="amenity-item">60 फीट चौड़ी सड़कें</div>
+                <div class="amenity-item">100% विकसित कॉलोनी</div>
+                <div class="amenity-item">पौधारोपण (Plantation)</div>
+                <div class="amenity-item">वाटर पाइप लाइन</div>
+                <div class="amenity-item">सुरक्षित बाउंड्री वॉल</div>
+                <div class="amenity-item">टिकाऊ डामर रोड</div>
+                <div class="amenity-item">डिवाइडर, Walking Track</div>
+                <div class="amenity-item">इलेक्ट्रिक लाइन</div>
+                <div class="amenity-item">ड्रेनेज लाइन</div>
+                <div class="amenity-item">Water Tank</div>
+                <div class="amenity-item">Servant Quarter</div>
+                <div class="amenity-item">रोड लाइट</div>
+                <div class="amenity-item">मुख्य गेट (Main Gate)</div>
+                <div class="amenity-item">बिजली के पोल</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <h2>लोकेशन की खासियत</h2>
+        <div class="location-grid">
+            <div class="location-item">
+                <h4>आयुर्वेदिक विश्वविद्यालय</h4>
+                <p>मात्र 6 km की दूरी</p>
+            </div>
+            <div class="location-item">
+                <h4>IIT जोधपुर</h4>
+                <p>मात्र 5.5 km की दूरी</p>
+            </div>
+            <div class="location-item">
+                <h4>ग्रामीण AIIMS</h4>
+                <p>मात्र 6 km की दूरी</p>
+            </div>
+            <div class="location-item">
+                <h4>मारवाड़ नर्सिंग कॉलेज</h4>
+                <p>मात्र 0.5 km की दूरी</p>
+            </div>
+            <div class="location-item">
+                <h4>मारवाड़ मेडिकल हॉस्पिटल</h4>
+                <p>मात्र 1 km की दूरी</p>
+            </div>
+            <div class="location-item">
+                <h4>CTAE कृषि विश्वविद्यालय</h4>
+                <p>मात्र 4 km की दूरी</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright © 2025 Sanjay Soni. All rights reserved.</p>
+        <p>विराट प्रॉपर्टी & डेवलपर्स | रिद्धि सिद्धि लैंड डेवलपर्स</p>
+    </footer>
+</body>
+</html>
