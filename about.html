@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>हमारे बारे में - Virat Properties</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5aa0, #1e3a8a);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #ffd700;
+        }
+        
+        .main-content {
+            margin-top: 80px;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .page-title {
+            text-align: center;
+            color: #2c5aa0;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+        
+        .about-section {
+            margin-bottom: 3rem;
+        }
+        
+        .about-section h2 {
+            color: #2c5aa0;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+        
+        .about-section p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .value-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 4px solid #2c5aa0;
+        }
+        
+        .value-card h3 {
+            color: #2c5aa0;
+            margin-bottom: 1rem;
+        }
+        
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">विराट प्रॉपर्टीज</div>
+            <ul class="nav-links">
+                <li><a href="index.html">होम</a></li>
+                <li><a href="about.html">हमारे बारे में</a></li>
+                <li><a href="contact.html">संपर्क करें</a></li>
+                <li><a href="terms.html">नियम व शर्तें</a></li>
+                <li><a href="privacy.html">प्राइवेसी पॉलिसी</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1 class="page-title">हमारे बारे में</h1>
+        
+        <div class="about-section">
+            <h2>विराट प्रॉपर्टी & डेवलपर्स</h2>
+            <p>
+                विराट प्रॉपर्टी & डेवलपर्स राजस्थान के जोधपुर में स्थित एक प्रतिष्ठित रियल एस्टेट कंपनी है। हमारा मिशन है "भरोसेमंद निवेश, सुकूनभरा जीवन" प्रदान करना। हम रिद्धि सिद्धि लैंड डेवलपर्स के साथ मिलकर आपके सपनों के घर को साकार करने में आपकी सहायता करते हैं।
+            </p>
+            <p>
+                हमारी विराट फार्म हाउस परियोजना JDA पट्टा सुदा स्कीम के तहत है, जो आपको पूर्ण कानूनी सुरक्षा प्रदान करती है। हमारा लक्ष्य न केवल आपको एक बेहतरीन प्लॉट प्रदान करना है, बल्कि एक संपूर्ण जीवनशैली देना है।
+            </p>
+        </div>
+
+        <div class="about-section">
+            <h2>हमारी विशेषताएं</h2>
+            <p>
+                विराट फार्म हाउस नागौर रोड पर NH-65 पर स्थित है, जो जोधपुर के प्रमुख शैक्षणिक और स्वास्थ्य संस्थानों के निकट है। हमारी कॉलोनी 100% विकसित है और सभी आवश्यक सुविधाओं से लैस है।
+            </p>
+        </div>
+
+        <div class="about-section">
+            <h2>हमारे मूल्य</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3>भरोसा</h3>
+                    <p>हमारी सभी परियोजनाएं पारदर्शी और भरोसेमंद हैं। JDA अप्रूवल के साथ आपको पूर्ण सुरक्षा मिलती है।</p>
+                </div>
+                <div class="value-card">
+                    <h3>गुणवत्ता</h3>
+                    <p>हम उच्च गुणवत्ता के साथ सभी सुविधाएं प्रदान करते हैं - डामर रोड से लेकर वॉटर टैंक तक।</p>
+                </div>
+                <div class="value-card">
+                    <h3>ग्राहक संतुष्टि</h3>
+                    <p>आपकी संतुष्टि हमारी प्राथमिकता है। हम आपके सपनों का प्लॉट आपके बजट में उपलब्ध कराते हैं।</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h2>हमारा स्थान</h2>
+            <p>
+                <strong>साइट पता:</strong> NH - 65 माँ पार्वती नगर के पीछे, नागौर रोड, जोधपुर (राज.)<br>
+                <strong>ऑफिस पता:</strong> 3rd, सी रोड, सरदारपुरा, जोधपुर (राज.)
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright © 2025 Sanjay Soni. All rights reserved.</p>
+        <p>विराट प्रॉपर्टी & डेवलपर्स | रिद्धि सिद्धि लैंड डेवलपर्स</p>
+    </footer>
+</body>
+</html>
